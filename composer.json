@@ -1,7 +1,7 @@
 {
 	"name": "fromholdio/silverstripe-commonancestor",
 	"type": "silverstripe-vendormodule",
-	"description": "",
+	"description": "A small utility class that accepts an array of class name, compares their class ancestories, and identifies their closest common ancestor class.",
 	"license": "BSD-3-Clause",
 	"keywords": ["silverstripe", "hierarchy", "ancestor"],
 	"homepage": "https://github.com/fromholdio/silverstripe-commonancestor",
