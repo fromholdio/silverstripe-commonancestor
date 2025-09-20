@@ -15,7 +15,7 @@ class CommonAncestor
      *
      * @return string Common ancestor class name.
      */
-    public static function get_closest(array $classes, $tablesOnly = false)
+    public static function get_closest(array $classes, $tablesOnly = false): string
     {
         if (empty($classes)) {
             throw new \InvalidArgumentException(
@@ -84,5 +84,7 @@ class CommonAncestor
                 return $myAncestor;
             }
         }
+
+        return '';
     }
 }

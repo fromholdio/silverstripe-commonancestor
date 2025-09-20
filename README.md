@@ -6,7 +6,7 @@ Class is pretty well commented, jumping into it should answer any initial questi
 
 ## Requirements
 
-SilverStripe 4
+SilverStripe 4, 5, 6
 
 ## Installation
 
